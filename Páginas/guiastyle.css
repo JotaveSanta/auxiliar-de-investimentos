@@ -3,7 +3,7 @@
     font-family: "Roboto", sans-serif;
 }
 body{
-    background-image: url("https://www.nordinvestimentos.com.br/cdn-cgi/imagedelivery/WVyV4OkToIxntlRloKFH7Q/wp-content/uploads/2023/05/Fundos-de-Investimento-para-voc--conhecer.jpg/format=auto,w=785,h=442");
+    background-color: rgb(20, 20, 20);
     background-size: cover;
 }
 #main{
@@ -20,7 +20,7 @@ body{
 }
 button{
     width: 180px;
-    background-color: rgb(80, 145, 242);
+    background-color: rgb(20, 20, 20);
     border: 2px solid white;
     cursor: pointer;
     border-radius: 5px;
@@ -46,4 +46,13 @@ button:active{
 #introducao{
     text-align: left;
     font-size: large;
+}
+#img1{    
+width: 30%; 
+  max-width: 90px;
+  height: auto;
+  position: absolute;
+  right: 37%;
+    bottom: 12%;
+    z-index: 1;
 }

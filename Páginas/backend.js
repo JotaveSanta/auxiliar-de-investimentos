@@ -12,11 +12,17 @@ function calculoinvestir(){
     caixa30.textContent = `Você pode usar R$${trinta} para lazer e gastos não essenciais`
     caixa20.textContent = `Você tem que deixar R$${vinte} para Poupança e Investimentos`
 } 
+
 function menuShow() {
-    let menuMobile = document.querySelector('ferramentamenu');
-    if (menuMobile.classList.contains('openmenu')) {
-      menuMobile.classList.remove('openmenu');
+ const conteudo = document.getElementById('sidebar');
+    if (conteudo.style.display === 'none') {
+      conteudo.style.display = 'block';
     } else {
-      menuMobile.classList.add('openmenu');
+      conteudo.style.display = 'none';
     }
   }
+function closemenu(){
+  const conteudo = document.getElementById('sidebar');
+  if(conteudo.style.display === 'block'){
+  conteudo.style.display = 'none';}
+}

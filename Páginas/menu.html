@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<script src="backend.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investimentos</title>
 </head>
 <body>
-    <header id="header">
-        <nav id="nav-bar">
-            <div id="sobrenos">
-                <button class="sobrenos">Sobre nós</button>
-            </div>
-        </nav>
+    <header>
+        <img id="logo" src="Logo Sants.png">
     </header>
-    <nav class="openmenu">
-        <h2>Ferramentas</h2>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
+    <nav class="sidebar" id="sidebar">
+        <button id="close-btn" onclick="closemenu()"><img src="https://e7.pngegg.com/pngimages/496/696/png-clipart-white-right-arrow-logo-indian-arrow-black-white-arrow-s-angle-triangle.png" alt=""></button>
+        <h2 id="titulo-sidebar">Ferramentas</h2>
+        <ul id="lista-sidebar">
+            <li><a href="guia.html"><button class="solidbtn" id="ferramentaguia" style="font-family: 'Roboto', sans-serif;">Guia de Investimento baseado no salário</button></a></li>
+            <li><a href="#">Redes</a></li>
             <li><a href="#">Serviços</a></li>
             <li><a href="#">Contato</a></li>
+            <li><a href="#">Sobre nós</a></li>
         </ul>
     </nav>
     <div id="main">
@@ -44,17 +42,13 @@
         <b>Comece agora e dê o primeiro passo rumo ao seu futuro financeiro.</b>
         </div>
     <div id="interagiveis">
-    <a href="guia.html">
-        <button id="ferramentaguia">Guia de Investimento baseado no salário</button>
-    </a>
-    <button id="ferramentamenu" onclick="showMenu()">menu</button>
+        <button id="menu-btn" onclick="menuShow()">Conheça nossas ferramentas!</button>
     </div>
     </div>
     <div id="moedas">
         <img src="image.png">
        </div>
     </div>
-    <img id="logo" src="Logo Sants branca.png">
 <link rel="stylesheet" href="menu.css">
 </body>
 </html>
