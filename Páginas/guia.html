@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<script src="backend.js"></script>
+<link rel="stylesheet" href="guiastyle.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Investimentos</title>
+</head>
+<body>
+    <div id="main">
+        <div id="introducao">
+            <b style="font-size: 30px ; display: flex; justify-content: center;">Este é o seu guia de investimentos!</b><br>
+            <p>Aqui você vai aprender a investir seu salário e assim, ter um futuro mais promissor e cheio de riquezas!</p>
+            <p>Seu salário vai ser dividido em um sistema da seguinte forma: </p>
+            <ul id="lista">
+                <li>50% para nescessidades essenciais</li>
+                <li>30% para lazer</li>
+                <li>20% para Poupança, investimentos ou objetivos a longo prazo</li>
+            </ul>
+        </div>
+        <div id="interagiveis">
+            <input id="salario" type="number" placeholder="Salário"> <br>
+            <button class="varado" onclick="calculoinvestir()">Calcular o investimento</button>
+        </div>
+        <div id="final">
+            <p id="cinquentaresult"></p>
+            <p id="30result"></p>
+            <p id="20result"></p>
+        </div>
+        <div id="voltar">
+            <button onclick="location.href='menu.html'"
+            style="margin: 7px;">Voltar ao Menu</button>
+        </div>
+    </body>
+</html>

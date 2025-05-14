@@ -1,0 +1,86 @@
+body{
+    background-color: rgb(247, 245, 245);
+}
+#ferramentaguia, #ferramentamenu{
+    margin-top: 15px;
+    padding: 10px;
+    font-size: medium;
+    background: transparent;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+    color: white;
+}
+button:active{
+    opacity: 0.5;
+}
+#logo{
+    width: 100%;
+    max-width: 10%;
+    position: fixed;
+    bottom: 2px;
+    left: 2px;
+    z-index: 100;
+}
+.textos ul{
+    text-decoration: none;
+}
+#main {
+    display: flex;
+    width: 40%;
+    height: 500px;
+    background-color: rgb(247, 245, 245);
+    padding: 1%;
+    font-size:medium;
+    margin: 1%;
+    bottom: 2px;
+    
+}
+.main2{
+    width: 100%;
+    
+}
+.textos{
+    text-align: justify;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+#nav-bar{
+    display: flex;
+}
+header button{
+    width: 200px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+#moedas{
+    width: 30%; /* ou ajuste conforme necessário */
+  max-width: 150px;
+  height: auto;
+  position: absolute;
+  right: 30%;
+}
+.openmenu{
+    width: 200px;
+    height: 100vh;
+    z-index: 100;
+    position: fixed;
+    right: -220;
+    top: 0;
+    transition: right 0.3 ease;
+}

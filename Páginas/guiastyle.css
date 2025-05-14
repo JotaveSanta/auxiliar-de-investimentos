@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background-image: url("https://www.nordinvestimentos.com.br/cdn-cgi/imagedelivery/WVyV4OkToIxntlRloKFH7Q/wp-content/uploads/2023/05/Fundos-de-Investimento-para-voc--conhecer.jpg/format=auto,w=785,h=442");
+    background-size: cover;
+}
+#main{
+    width: 60%;
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+#salario, button{
+    padding: 10px;
+    margin-bottom: 5px ;
+}
+button{
+    width: 180px;
+    background-color: rgb(80, 145, 242);
+    border: 2px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+}
+button:active{
+    opacity: 0.5;
+}
+#final{
+    width: 60%;
+    height: 200px;
+    color: black;
+    margin-left: 150px;
+}
+#voltar{
+    position: absolute;
+    bottom: 0;
+}
+#lista{
+    list-style-type: none;
+    padding-left: 0;
+}
+#introducao{
+    text-align: left;
+    font-size: large;
+}
