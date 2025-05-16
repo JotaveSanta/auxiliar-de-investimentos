@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-<script src="backend.js"></script>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Investimentos</title>
+    <script src="backend.js"></script>
+    <link rel="stylesheet" href="menu.css">
 </head>
 <body>
     <header>
@@ -15,40 +16,49 @@
         <h2 id="titulo-sidebar">Ferramentas</h2>
         <ul id="lista-sidebar">
             <li><a href="guia.html"><button class="solidbtn" id="ferramentaguia" style="font-family: 'Roboto', sans-serif;">Guia de Investimento baseado no salário</button></a></li>
-            <li><a href="#">Redes</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Sobre nós</a></li>
+            <li><a href="#">Ferramenta 2</a></li>
+            <li><a href="#">Ferramenta 3</a></li>
+            <li><a href="#">Ferramenta 4</a></li>
+            <li><a href="#">Ferramenta 5</a></li>
         </ul>
     </nav>
-    <div id="main">
+    <section id="main">
         <div class="main2">
-        <h1>Bem vindo a <br>Sants Investments</h1>
-        <div class="textos">
-        <p>Bem-vindo ao Sants investiments, o seu portal de investimentos confiável e inteligente.
-            <br>
-            Nosso objetivo é ajudar você a conquistar sua liberdade financeira com segurança, 
-            informação de qualidade e as melhores oportunidades do mercado.
-            <br>
-            Aqui, você encontra:
-        </p>
-        <ul>
-            <li>Conteúdo educativo</li>
-            <li>Ferramentas e simuladores</li>
-        </ul>
-        <p>Com uma interface simples e suporte especializado, 
-            estamos aqui para tornar o mundo dos investimentos mais acessível para você.
-        </p>
-        <b>Comece agora e dê o primeiro passo rumo ao seu futuro financeiro.</b>
+            <h1>Bem vindo a <br>Sants Investments</h1>
+            <div class="textos">
+                <p>Bem-vindo ao Sants investiments, o seu portal de investimentos confiável e inteligente.
+                    <br>
+                    Nosso objetivo é ajudar você a conquistar sua liberdade financeira com segurança, 
+                    informação de qualidade e as melhores oportunidades do mercado.
+                    <br>
+                    Aqui, você encontra:
+                </p>
+                <ul>
+                    <li>Conteúdo educativo</li>
+                    <li>Ferramentas e simuladores</li>
+                </ul>
+                <p>
+                Com uma interface simples e suporte especializado, estamos aqui para tornar o mundo dos investimentos
+                mais acessível para você.
+                </p>
+                <b>Comece agora e dê o primeiro passo rumo ao seu futuro financeiro.</b>
+            </div>
+            <div id="interagiveis">
+                <button id="menu-btn" onclick="menuShow()">Conheça nossas ferramentas!</button>
+            </div>
         </div>
-    <div id="interagiveis">
-        <button id="menu-btn" onclick="menuShow()">Conheça nossas ferramentas!</button>
-    </div>
-    </div>
-    <div id="moedas">
-        <img src="image.png">
-       </div>
-    </div>
-<link rel="stylesheet" href="menu.css">
+        <div id="moedas">
+            <img src="image.png">
+        </div>
+    </section>
+    <section id="Conhecimentos">
+        <div id="rendafixa" class="solidbtn">
+            <button onclick="window.location.href='rendafixa.html'">
+                <h3>Renda Fixa</h1>
+                <p>Invista com segurança: descubra como a Renda Fixa pode proteger e fazer crescer seu dinheiro!</p>
+                <img src="img4.png">
+            </a>
+        </div>
+    </section>
 </body>
 </html>
