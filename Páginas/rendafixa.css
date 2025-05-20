@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    border: none;
+}
+body{
+    cursor:default;
+}
+#cabecalho{
+    background-image: url(img6.jpg);
+    width: 210vh;
+    height: 30vh;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:initial;
+    color: white;
+    font-family: "montserrat";
+}
+#cabecalho p,h1{
+    margin: 5px;
+}
+#img5{
+    width: 10%;
+    height: auto;
+}
+#medium{
+    padding: 1%;
+    width: 200vh;
+    height: 25vh;
+    text-align: justify;
+    font-size: smaller;
+    font-family: "montserrat", sans-serif;
+}
+#medium h2,h3,p{
+    margin: 1vh;
+}
+.icon{
+    background-color:cornflowerblue;
+    width: 40vh ;
+    height: 25vh;
+    margin: 12vh;
+    border-radius: 5px;
+    padding: 2vh;
+    font-family: "montserrat";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: aliceblue;
+}
+#icons{
+    background-image: url(img7.webp);
+    height: 40vh;
+    display: flex;
+    align-items: center;
+}
+#img7{
+    width: 15vh;
+}
+#comeback{
+    padding: 15px;
+    background: transparent;
+    width: 20vh;
+    height: 5vh;
+    border-radius: 5px;
+    position: fixed;
+    left: 2vh;
+    top: 2vh;
+    text-align: center;
+    border: 1px solid white;
+
+}
+#img8{
+    width: 5vh;
+    height: auto;
+    margin-top: -2vh;
+    cursor: pointer;
+}

@@ -26,3 +26,6 @@ function closemenu(){
   if(conteudo.style.display === 'block'){
   conteudo.style.display = 'none';}
 }
+function voltaraomenu(){
+  window.location.href = "menu.html"
+}
